@@ -1,0 +1,29 @@
+
+header{
+    border-bottom: 1px solid gray;
+}
+#sec-products{
+    padding: 40px 0;
+    .container{
+        width: 80%;
+        margin: 0 auto;
+        .sec-products-content{
+            .carts{
+                gap: 40px;
+                display: flex;
+                justify-content: center ;
+                flex-wrap: wrap;
+                .cart{
+                    width: 260px;
+                    text-align: center;
+                    .imgDiv{
+                        width: 100%;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

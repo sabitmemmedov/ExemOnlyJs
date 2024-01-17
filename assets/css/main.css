@@ -1,0 +1,27 @@
+header {
+  border-bottom: 1px solid gray;
+}
+
+#sec-products {
+  padding: 40px 0;
+}
+#sec-products .container {
+  width: 80%;
+  margin: 0 auto;
+}
+#sec-products .container .sec-products-content .carts {
+  gap: 40px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#sec-products .container .sec-products-content .carts .cart {
+  width: 260px;
+  text-align: center;
+}
+#sec-products .container .sec-products-content .carts .cart .imgDiv {
+  width: 100%;
+}
+#sec-products .container .sec-products-content .carts .cart .imgDiv img {
+  width: 100%;
+}
